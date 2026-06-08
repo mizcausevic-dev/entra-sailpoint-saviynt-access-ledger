@@ -1,42 +1,49 @@
-# entra-sailpoint-saviynt-access-ledger
+# Entra SailPoint Saviynt Access Ledger
 
-Entra SailPoint Saviynt Access Ledger is a Kinetic Gain portfolio proof repo for **Microsoft Entra ID, SailPoint, Saviynt** across IAM / Security.
+Entra SailPoint Saviynt Access Ledger turns Microsoft Entra ID, SailPoint, Saviynt operating evidence into board-ready exposure, savings, investment, and narrative decisions.
 
-It turns identity governance, access certification pressure, privileged exceptions, and revocation proof into a small board-readable intelligence packet: where risk is building, where money is leaking, what deserves investment, and what story leaders can tell with evidence.
+## What it answers
 
-## Platform and company signals
+Can leadership explain where Microsoft Entra ID, SailPoint, Saviynt creates exposure, savings opportunity, investment priority, or board-visible execution risk?
 
-- Microsoft Entra ID
-- SailPoint
-- Saviynt
+## Decision lanes
 
-## What it includes
+- **Exposure** (82) — Unowned identity governance, access certification pressure, privileged exceptions, and revocation proof Next: Assign an accountable owner and evidence path
+- **Savings** (76) — Duplicated tooling and stale workflow evidence Next: Quantify recoverable spend and remove duplicated handoffs
+- **Investment** (88) — Critical control plane needs clearer funding priority Next: Package the strongest board-ready investment narrative
 
-- runnable Node CLI for summarizing synthetic control-plane lanes
-- JSON fixture with exposure, savings, and investment lanes
-- static proof page in site/index.html
-- lightweight CI using Node's built-in test runner
-- no production credentials, no customer data, no external API calls
+## Operating workflow
+
+- **Ingest:** Collect Microsoft Entra ID + SailPoint + Saviynt operating evidence without exposing credentials or raw customer data.
+- **Score:** Translate exceptions into exposure, savings, investment, and narrative confidence lanes.
+- **Route:** Assign each lane to one accountable owner with a next action and review window.
+- **Package:** Produce a board-ready packet with decisions, tradeoffs, and proof links.
+
+## Board pack outputs
+
+- One-page IAM / Security decision brief
+- Microsoft Entra ID / SailPoint / Saviynt exposure and ownership map
+- Priority lane: Investment
+- Savings, remediation, and investment narrative
+- Public-demo boundary and evidence-source notes
 
 ## Local run
 
-`powershell
+```bash
+npm install
 npm test
-npm run demo
 npm run build
-`
+```
 
-## Output shape
+## Links
 
-`json
-{
-  "product": "Entra SailPoint Saviynt Access Ledger",
-  "signals": ["Microsoft Entra ID", "SailPoint", "Saviynt"],
-  "averageScore": 82,
-  "priorityLane": "investment"
-}
-`
+- [Portfolio atlas](https://portfolio.kineticgain.com/)
+- [Kinetic Gain](https://kineticgain.com/)
+- [GitHub repo](https://github.com/mizcausevic-dev/entra-sailpoint-saviynt-access-ledger)
+- [Microsoft Entra ID surface](https://entra.kineticgain.com/)
+- [SailPoint surface](https://sailpoint.kineticgain.com/)
+- [Saviynt surface](https://saviynt.kineticgain.com/)
 
-## Kinetic Gain fit
+## Public-demo boundary
 
-This repo supports the Platform and Company Signals layer of the portfolio atlas. It is intentionally small, readable, and evidence-oriented so executives can see the operating pattern without requiring access to live enterprise systems.
+No production credentials, customer records, private contracts, or admin-console exports belong in this repo. Fixtures are synthetic and intended to prove the decision shape only.
